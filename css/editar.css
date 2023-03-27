@@ -1,0 +1,101 @@
+:root{
+    --bg-btn: #0ef;
+    --txt:#FFFFFF;
+    --fondo: black;
+    --fondo-small:#171617;
+    --titulo:#4CC49E;
+    --eli:#7135D9;
+    /*--edi:#FD5583;*/
+  }
+
+.baner{
+    position: relative;   
+}  
+
+.edicion{
+    color: var(--bg-btn);    
+}
+.edicion:hover{
+    background-color: var(--bg-btn);
+    border-radius: 20%;
+    padding: 10px;
+    color: var(--txt);
+}
+.edicion:active{
+    color: var(--fondo);
+    border-radius: 30%;
+}
+.edit-ic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #333;
+    padding: 10px;
+
+}
+
+
+.lapiz{
+    color: var(--bg-btn);    
+}
+
+.lapiz:hover{
+    background-color: var(--bg-btn);
+    border-radius: 20%;
+    padding: 10px;
+    color: var(--txt);
+}
+
+.lapiz:active{
+    color: var(--fondo);
+    border-radius: 30%;
+}
+
+.tacho{
+    color: var(--eli);   
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;    
+}
+
+.tacho:hover{
+    background-color: var(--eli);
+    border-radius: 20%;
+    padding: 10px;
+    color: var(--txt);
+}
+
+.tacho:active{
+    color: var(--fondo);
+    border-radius: 30%;
+}
+
+.image-container {
+    position: relative;
+    margin-left: 23%;
+    display: inline-block;
+  }
+.edit-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #333;
+    padding: 10px;
+}
+
+
+.encima{
+    color: var(--bg-btn);    
+}
+.encima:hover{
+    background-color: var(--bg-btn);
+    border-radius: 20%;
+    padding: 10px;
+    color: var(--txt);
+}
+.encima:active{
+    color: var(--fondo);
+    border-radius: 30%;
+}

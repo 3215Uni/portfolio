@@ -1,0 +1,55 @@
+/*HOJA DE ESTILO DEL FORMULARIO DE LOGIN */
+:root{
+    --bg-btn: #0ef;
+    --txt:#FFFFFF;
+    --fondo: #171617;
+}
+body{
+    margin-top: 0%;
+    padding: 0;
+  }
+  .login{
+    margin-top: 3%;
+    width: 33%;
+    margin-left: 35%;
+    min-height: 100hv;
+    place-items: center;
+    color: var(--txt);
+  }
+  
+  #in{
+    margin-left: 33%;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    border: 0.5 solid;
+    color:var(--txt);
+    border-color:var(--txt);
+    background: var(--main-color);
+  }
+  #in:hover{
+    background-color:var(--bg-btn);
+    font-size: medium;
+    color: black;
+    border-color: black;
+  }
+  .pass, .user{ 
+    border: none;
+    background-color: var(--fondo);
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: var(--txt);
+    outline: 0px;
+  }
+  .newCuenta{
+    color: var(--txt);
+    text-decoration: none;
+  }
+  .newCuenta:hover{
+    color: var(--bg-btn);
+  }
+  .newCuenta:active{
+    font-weight: bold;
+  }
+  
+  
